@@ -14,3 +14,10 @@ Resolve a list of domains given in a file (input) and resolve their IP in output
 ```
 sh Resolver.sh domains.txt resolved.txt
 ```
+
+## Record
+Record your screen and save the stdin/stdout to ~/records.
+
+```
+sh record.sh
+```
