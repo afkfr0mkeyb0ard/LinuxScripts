@@ -26,6 +26,6 @@ To run it automatically when a new terminal is open, add this to bashrc or zshrc
 ```
 if [ -z "$TERMINAL_RECORDED" ]; then
   export TERMINAL_RECORDED=1
-  exec ~/.terminal-recorder.sh
+  exec ~/terminal.sh
 fi
 ```
